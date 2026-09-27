@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Cut &amp; Scent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a href="index.html" class="wordmark-h">Cut &amp; Scent</a>
+  <button class="menu-btn" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div>
+<nav class="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="about.html">About</a>
+  <a href="contact.html" class="current">Contact</a>
+</nav>
+
+<div class="shell">
+  <aside class="rail">
+    <a href="index.html" class="wordmark">Cut &amp; Scent</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="current">Contact</a>
+    </nav>
+    <span class="rail-mark"></span>
+  </aside>
+
+  <main>
+    <div class="wrap">
+      <section class="hero" style="padding-bottom:48px;">
+        <p class="eyebrow">Contact</p>
+        <h1 style="font-size:clamp(2.2rem,5vw,3.6rem);">Have a launch coming up?</h1>
+        <p class="lede">Tell me a bit about the project and timeline, and I'll get back to you within a couple of days.</p>
+      </section>
+
+      <section style="padding-top:0;">
+        <div class="contact-grid">
+          <form>
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="brand">Brand / project</label>
+              <input type="text" id="brand" name="brand">
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-solid" style="align-self:flex-start; border:none; cursor:pointer;">Send message</button>
+            <p class="note">This form doesn't send anywhere yet. GitHub Pages can't run a backend — connect it to a service like Formspree or Getform, then point the form's action at their endpoint.</p>
+          </form>
+
+          <div>
+            <h2 style="font-size:1.4rem; margin-bottom:6px;">Direct</h2>
+            <ul class="contact-list">
+              <li>
+                <span>Email</span>
+                <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+              </li>
+              <li>
+                <span>Instagram</span>
+                <a href="#">@yourhandle</a>
+              </li>
+              <li>
+                <span>Vimeo</span>
+                <a href="#">vimeo.com/yourreel</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <span>© 2026 Cut &amp; Scent</span>
+        <span>Based in [Your City]</span>
+      </footer>
+    </div>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
